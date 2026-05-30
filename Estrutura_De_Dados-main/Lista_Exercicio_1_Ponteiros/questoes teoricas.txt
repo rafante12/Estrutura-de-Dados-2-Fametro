@@ -1,0 +1,19 @@
+questoes teoricas
+
+# Respostas Teóricas - Ponteiros em C
+
+### Questão 1
+* **Alternativa Correta:** b) Um ponteiro armazena o endereço de memória de uma variável.
+* **Justificativa:** Ponteiros são variáveis especiais que guardam a localização (o endereço) de outras variáveis na memória do computador.
+
+### Questão 2
+* **Alternativa Correta:** d) Acessa (dereferencia) o valor armazenado no endereço de memória para o qual o ponteiro aponta.
+* **Justificativa:** O operador asterisco (*), quando usado em um ponteiro já criado, serve para "entrar" no endereço apontado e manipular o valor real que está lá dentro.
+
+### Questão 3
+* **Alternativa Correta:** c) Para alocar um bloco de memória de um tamanho especificado em bytes e retornar um ponteiro para o início desse bloco.
+* **Justificativa:** A função malloc serve para pedir ao sistema operacional um pedaço de memória RAM dinamicamente durante a execução do programa.
+
+### Questão 4
+* **Exemplo de Chamada:** `modifica(&num, 10);`
+* **Justificativa:** Como o primeiro parâmetro espera um ponteiro (int *a), precisamos passar o endereço da variável 'num' usando o operador '&'. O segundo parâmetro espera apenas um número comum.
